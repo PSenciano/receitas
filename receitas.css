@@ -1,0 +1,47 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.receitas {
+    background-color: #e7e7c6;
+    font-size: 1rem;
+    height: 450px;
+    width: 250px;
+    margin: 7px;
+}
+
+.receitas h2 {
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.receitas img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.receitas nav {
+    margin: 15px 0;
+}
+
+.receitas nav ul {
+    text-align: justify;
+    display: inline;
+    position: relative;
+    left: 25%;
+    font-weight: normal;
+}
+
+.receitas hr {
+    margin: 5px;
+}
+
+.receitas p {
+    font-weight: normal;
+    margin: 15px;
+    text-align: left;
+}
